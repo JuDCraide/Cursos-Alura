@@ -1,0 +1,9 @@
+@media (max-width: $ponto-de-quebra) {
+  .menu-opcoes,
+  .menu-opcoes li,
+  .post-destaque,
+  .posts-antigos,
+  form {
+    width: auto;
+  }
+}

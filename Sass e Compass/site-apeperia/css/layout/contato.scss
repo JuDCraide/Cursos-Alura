@@ -1,0 +1,39 @@
+/** Contato **/
+.contato input,
+.contato button {
+  display: block;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+  @media (max-width: $ponto-de-quebra) {
+    width: auto;
+  }
+}
+
+.contato input,
+.contato textarea {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  margin-bottom: 0.8em;
+  padding: 4px 8px;
+  @include borda-arredondada;
+  border: 2px solid #ccc;
+}
+
+.contato button {
+  margin: 0 auto;
+  background: $cor-padrao;
+  border: 0;
+  color: $cor-branca;
+  width: 210px;
+  height: 38px;
+  font-size: 1.2em;
+  //@include borda-arredondada();
+  @include border-radius(10px);
+  //@extend %sombra-padrao;
+  //@include single-box-shadow
+  @include box-shadow(black 0 2px 6.65px);
+}

@@ -1,0 +1,42 @@
+/** Destaque **/
+.destaque {
+  background: url(../imagens/destaque.jpg) center bottom repeat-x;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: white;
+  height: 330px;
+  padding-top: 10em;
+
+  @media #{$media-querry} {
+    font-size: 14px;
+    height: 250px;
+  }
+}
+
+.destaque p {
+  width: 30em;
+}
+
+.destaque p:first-child {
+  width: 30em;
+  font-size: 1.3em;
+  line-height: 1.1;
+}
+
+.destaque p:first-child:first-line {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.destaque button {
+  margin-top: 1em;
+  background: $cor-padrao;
+  border: 0;
+  padding: 0.6em;
+  font-size: 1.2em;
+  //@include borda-arredondada(50px);
+  @include border-radius(50px);
+  //@extend %sombra-padrao;
+  @include box-shadow(black 0 2px 6.65px );
+  font-weight: bold;
+}
