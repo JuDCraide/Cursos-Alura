@@ -1,0 +1,22 @@
+.menu__link {
+  color: #333;
+  padding: 0.5rem;
+  border-bottom: 2px solid transparent;
+}
+
+.menu__link.ativo {
+    border-bottom: 2px solid #333;
+}
+
+.menu__link:hover {
+    border-bottom: 2px solid #0073e6;
+}
+
+.menu__item{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu__link{
+  display: block;
+}
