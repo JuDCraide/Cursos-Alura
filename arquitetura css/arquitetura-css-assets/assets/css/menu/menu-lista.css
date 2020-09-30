@@ -1,0 +1,10 @@
+.menu__lista {
+  display: flex;
+}
+
+@media screen and (min-width: 0) {
+  .menu__lista {
+    flex-wrap: wrap;
+    margin: auto;
+  }
+}

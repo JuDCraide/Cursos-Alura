@@ -1,0 +1,13 @@
+.quem-somos__titulo {
+  font-family: Pacifico, cursive;
+  color: #8d0606;
+  font-size: 3.1875rem;
+
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px){
+  .quem-somos__titulo{
+    font-size: 2.5rem;
+  }
+}

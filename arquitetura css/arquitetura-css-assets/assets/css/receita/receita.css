@@ -1,0 +1,37 @@
+.receita {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
+  /*width: 100%;*/
+  min-width: 230px;
+  max-width: 330px;
+
+  background: #fdfdfd;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 2px 4px 15px 0 rgb(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 0) {
+  .receita {
+    width: calc(100% - 3rem);
+  }
+}
+
+@media screen and (min-width: 610px) {
+  .receita {
+    width: calc(50% - 3rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .receita {
+    width: calc(30% - 3rem);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .receita {
+    width: calc(25% - 3rem);
+  }
+}

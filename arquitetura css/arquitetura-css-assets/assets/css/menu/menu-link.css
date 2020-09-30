@@ -1,0 +1,27 @@
+.menu__link {
+  color: #808080;
+  text-decoration: none;
+  text-transform: lowercase;
+
+  margin-right: 1.25rem;
+}
+
+.menu__link.ativo {
+  color: #333;
+  font-weight: bold;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+}
+
+.menu__item:last-child .menu__link {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px){
+  .menu__item:last-child .menu__link,
+  .menu__link {  
+    margin: 0 0.5rem;
+  }
+}
